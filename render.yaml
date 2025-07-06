@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: movie-series-streaming-api
+    env: node
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    publishDirectory: ./
